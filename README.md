@@ -16,6 +16,21 @@
      
 4. The web server then sends the page you requested back to your browser.
 
+### HTML describes the structure of pages
+'''html
+<html>
+   <body>
+      <h1> Main heading </h1>
+      <p>
+         This box can be used to write a paragraph
+      </p>
+      <h2> Sub heading </h2>
+      <p>
+         Another paragraph box
+      </p>
+   </body>
+</html>
+'''
 
 
 
