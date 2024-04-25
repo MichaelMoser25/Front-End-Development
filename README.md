@@ -32,6 +32,8 @@
 </html>
 ```
 
+- HTML code (in blue) is made up of characters that live inside brackets - also called HTML elements.
+
 
 
 
