@@ -17,7 +17,7 @@
 4. The web server then sends the page you requested back to your browser.
 
 ### HTML describes the structure of pages
-'''html
+```html
 <html>
    <body>
       <h1> Main heading </h1>
@@ -30,7 +30,7 @@
       </p>
    </body>
 </html>
-'''
+```
 
 
 
