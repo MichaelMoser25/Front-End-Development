@@ -41,9 +41,17 @@
 ```html
 <p lang="en-us">Paragraph in English</p>
 ```
+- Here an attribute called lang is used to indicate the language in this element. The value of this attribute on this page specifies US English.
+  
+#### Attribute name (lang)
+- Indicates the kind of extra information being supplised about the elements content.
 
-Attribute name -> lang
-Attrubute Value -> en-us
+#### Attribute value (en-us)
+- Information of setting for the attribute.
+
+```html
+<p lang="en-fr">Paragraph in French</p>
+```
 
 
 
