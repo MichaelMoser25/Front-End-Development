@@ -34,7 +34,16 @@
 
 - HTML code (in blue) is made up of characters that live inside brackets - also called HTML elements.
 
+### Attributes tell us more about elements
+- Attributes provide information about the contents of an elements
+- They appear on the opening tag of the element and are made up of two parts: a name and a value (seperated by = sign)
 
+```html
+<p lang="en-us">Paragraph in English</p>
+```
+
+Attribute name -> lang
+Attrubute Value -> en-us
 
 
 
