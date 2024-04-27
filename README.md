@@ -62,6 +62,25 @@
 - Attributes require a name and a value.
 - To learn HTML you need to know what tags are avaulable for you to use, what they do, and where they can go.
 
+## Chapter 2: Text
+- The chapter focuses on how to add markup to text that appears on pages.
+
+#### Structural Markup
+- Elements that you can use to describe both heading and paragraphs
+
+#### Semantic Markup
+- Provides extra information; such as wehere emphasis is placed in a sentence
+
+### Headings
+- HTML has six levels of headings:
+  ``` html
+<h1>Main headings</h1>
+<h2>Sub headings</h2>
+<h3>level 3</h3>
+<h4>level 4</h4>
+<h5>level 5</h5>
+<h6>level 6</h6>
+  ```
 
 
 
