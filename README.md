@@ -1,6 +1,6 @@
 # 1. Front-End-Development: HTML
 
-## Chapter 1: Structure
+## 1.1: Structure
 ### How the web works
 - When you visit a website, the web server hosting that site could be anywhere in the world.
 - To find the location of the server it is first connected to a Domain Name System (DNS) server.
@@ -62,7 +62,7 @@
 - Attributes require a name and a value.
 - To learn HTML you need to know what tags are avaulable for you to use, what they do, and where they can go.
 
-## Chapter 2: Text
+## 1.2: Text
 - The chapter focuses on how to add markup to text that appears on pages.
 
 ## Structural Markup
