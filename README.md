@@ -1,4 +1,4 @@
-# Front-End-Development
+# 1. Front-End-Development: HTML
 
 ## Chapter 1: Structure
 ### How the web works
