@@ -73,14 +73,14 @@
 
 ### Headings
 - HTML has six levels of headings:
-  ``` html
+``` html
 <h1>Main headings</h1>
 <h2>Sub headings</h2>
 <h3>level 3</h3>
 <h4>level 4</h4>
 <h5>level 5</h5>
 <h6>level 6</h6>
-  ```
+```
 
 
 
