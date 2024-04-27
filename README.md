@@ -65,11 +65,8 @@
 ## Chapter 2: Text
 - The chapter focuses on how to add markup to text that appears on pages.
 
-#### Structural Markup
+## Structural Markup
 - Elements that you can use to describe both heading and paragraphs
-
-#### Semantic Markup
-- Provides extra information; such as wehere emphasis is placed in a sentence
 
 ### Headings
 - HTML has six levels of headings:
@@ -82,15 +79,69 @@
 <h6>level 6</h6>
 ```
 
+### Bold & Italic
+```html
+<b>Bold</b>
+<i>Italic</i>
+
+<sup>Superscript</sup>
+<sub>Subscript</sub>
+```
 
 
+### Line breaks & horizontal lines
+```html
+<br />
 
+<p> The Earth <br /> gets one hundred tons heavier every day </p>
+<hr />
+```
 
+## Semantic Markup
+- Provides extra information; such as wehere emphasis is placed in a sentence
 
+### Strong & Emphasis
+```html
+<p><strong>Beware: </strong> Pickpockets operate in this aeara </p>
+<p> I <em> think </em> Ivy was the first </p>
+```
 
+### Quatations 
+```html
+<blockquote cite="https://www.w3resource.com/java-exercises/index-inheritance.php#editorr">
+<p>Java is an Object Oriented program</p>
+</blockquote>
 
+<p> Michael said, <q>Let's play blackjack</q></p>
+```
 
+### Abbreviations & Acryonyms
+```html
+<p><abbr title="Professor">Prof</abbr> Michael Moser is a computer engineer.</p>
 
+```
+
+### Author Details
+```html
+<address>
+   <p><a href="mailto:mmoser@bell.net">
+      mmoser@bell.net</a></p>
+</address>
+```
+
+### Changes to Content
+``` html
+<p> It was the <del>worst</del> <ins>best</ins> idea I ever had </p>
+
+<p> Laptop </p>
+<p> <s> Was $990 </s> </p>
+<p> Now only $300 </p>
+
+```
+
+### Summary Chapter 2: Text 
+- HTML elements are used to describe the structure of the page (headings, subheadings, paragraphs).
+- They also provide semantic information (where emphasis should be placed, the definition of any acronyms used, when given text is quotation).
 
 
 
