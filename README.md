@@ -143,6 +143,157 @@
 - HTML elements are used to describe the structure of the page (headings, subheadings, paragraphs).
 - They also provide semantic information (where emphasis should be placed, the definition of any acronyms used, when given text is quotation).
 
+## 1.3: Lists
+- Numbered lists
+- Bullet lists
+- Defintion lists
+
+### Ordered Lists:
+- Each elements in the list is numbered. For example, a set of steps for a cooking recipe.
+  
+```html
+<ol>
+   <li> step 1 </li>
+   <li> step 2 </li>
+   <li> step 3 </li>
+   <li> step 4 </li>
+</ol>
+```
+
+- Ordered list is created with the <ol> element
+- Each list element is created with <li> tag
+
+
+### Unordered Lists:
+- Lists that begin with a bullet point (rather than characters that indicate order).
+
+```html
+<ul>
+   <li> first bullet </li>
+   <li> second bullet  </li>
+   <li> third bullet  </li>
+   <li> fourth bullet  </li>
+</ul>
+```
+- Unordered list is created with the <ul> element
+- Each list element is created with <li> tag
+  
+### Definition Lists:
+- Set of terms along with definitions for each of those terms.
+
+```html
+<dl>
+   <dt>Sashimi</dt>
+   <dd> Sliced raw fish that is served with condaments sich a radish or ginger root </dd>
+
+   <dt>Scale</dt>
+   <dd> Device used to measure the weight of smaller scale items </dd>
+</dl>
+```
+- Definition list is created with <dl> element which usually consists of a series of terms and their definitions
+- The <dt> tag is used to contain the term being defined (definitoon term)
+- The <dd> term is used to contain a definition
+
+
+### Nested Lists:
+```html
+<ul>
+   <li>Mousses</li>
+   <li>Pastries</li>
+      <ul>
+         <li>Croissant</li>
+         <li>Palmier</li>
+         <li>Profiterole</li>
+      </ul>
+   <li>Tarts</li>
+</ul>
+```
+
+- Here a sublist is created inside the list
+
+### Summary Chapter 3: Lists
+- There are three types of HTML lists: ordered, unordered, and definitions.
+- Ordered lists use numbers.
+- Unordered lists use bullets.
+- Definition lists are used to define terminology.
+- Definition lists are used to define terminology.
+- Lists can be nested inside] one another.
+
+## 1.4 Links
+- Creating links between pags
+- linking to other sites
+- Email links
+
+### Writing Links
+- Links are created using the <a> element.
+
+```html
+<a href="https://stockx.com/">StockX</a>
+```
+- Link text should explain where visitors will be taken if they click on it.
+
+### Linking to other sites
+```html
+<p> Movie Reviews:
+   <ul>
+      <li><a href="http://www.empireonline.com">Empire</a></li>
+      <li><a href="http://www.metacritic.com">Metacritic</a></li>
+      <li><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a></li>
+      <li><a href="http://www.variety.com">Variety</a></li>
+   </ul>
+</p>
+```
+
+### Linking to other pages on the same site
+```html
+<p>
+   <ul>
+      <li><a href="index.html>Home</a></li>
+      <li><a href="about-us.html>About</a></li>
+      <li><a href="movies.html>Movies</a></li>
+      <li><a href="contact.html>Contact</a></li>
+   </ul>
+</p>
+```
+
+#### Same Folder
+- To link to a file in the same folder, just use the file name (Nothing else is needed)
+```html
+<a href="reviews.html">Reviews</a>
+```
+#### Child Folder
+- For a child folder, use the name of the child folder, followed by a forward slash, then file name
+```html
+<a href="music/listings.html>Listings</a>
+```
+#### Grandchild Folder
+- Name of child folder followed by foward slash, then name of grandchild folder, followed by another foward slash, then the file name
+```html
+<a href="movies/dvd/reviews.html"> Reviews </a>
+```
+#### Parent Folder
+- Use ../ to indicate the folder above the current one then follow it with file name
+```html
+<a href=".../index.html>Home</a>
+```
+#### Grandparent Folder
+- Repeat the ../ to indicate that you want to go up two folders (rather than one), then follow it with the file name
+```html
+<a href="../../index.html">Home</a>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
