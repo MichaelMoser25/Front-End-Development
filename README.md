@@ -282,12 +282,38 @@
 <a href="../../index.html">Home</a>
 ```
 
+## 1.5 Images
+- How to add images to pages
+- Choosing the right format
+- Optimizing images for the web
 
 
 
+Steps:
+1. Inluce an image for the web page using html
+2. Pick which image format to use
+3. Show an image at the right size
+4. Optimize an image for use on the web to make pages load faster
 
+Tip: Create a subfolder to store images and direct the link through that folder
 
+#### Adding images
+'''html
+<img src="images/image1.png" alt="An images that is chosen from the folder" title="..." width="600" height="600"/>
+'''
 
+src - tells the browser where it can find the images
+
+alt - provided text description of the image
+
+title - provide addition information about the image
+
+Another function that can be added is align:
+'''html
+<img ........... alight="left" />
+'''
+
+#### Figure & figure caption
 
 
 
