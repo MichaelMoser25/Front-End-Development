@@ -314,8 +314,50 @@ Another function that can be added is align:
 '''
 
 #### Figure & figure caption
+'''html
+<figure>
+   <img src="images/img.png />
+   <bf />
+   <figcaption>This is the caption of the figure </figcaption>
+</figure>
+'''
 
+## 1.6 Tables
+ Ex: 4 x 4 matrix
 
+<tr></tr> element indicates table row
+
+<td></td> element indicated table data
+
+<th></th> element indicates row heading or column
+   
+'''html
+<table>
+   <tr>
+      <th></th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+   </tr>
+   <tr>
+      <th scope="row">Number:</th>
+      <td>15</td>
+      <td>15</td>
+      <td>15</td>
+   </tr>
+   <tr>
+      <th scope="row">Number:</th>
+      <td>15</td>
+      <td>15</td>
+      <td>15</td>
+   </tr>
+   <tr>
+      <th scope="row">Number:</th>
+      <td>15</td>
+      <td>15</td>
+      <td>15</td>
+   </tr>
+</table>
+'''
 
 
 
